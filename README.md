@@ -1,4 +1,4 @@
-# 🚗 SATT — Social-Attention Trajectory Transformer
+# SATT — Social-Attention Trajectory Transformer
 
 **Intent & Trajectory Prediction for L4 Urban Autonomous Driving**
 
@@ -6,7 +6,7 @@ A pure-PyTorch implementation of a Transformer-based multi-modal trajectory pred
 
 ---
 
-## 📊 Results
+## Results
 
 | Metric | Score |
 |---|---|
@@ -15,7 +15,7 @@ A pure-PyTorch implementation of a Transformer-based multi-modal trajectory pred
 | Pedestrian minADE₃ | 0.215 m (n=837) |
 | Bicycle minADE₃ | 0.172 m (n=35) |
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Input (x, y, dx, dy, heading, class, moving)
@@ -42,7 +42,7 @@ Input (x, y, dx, dy, heading, class, moving)
    K=3 predicted trajectories + confidence scores
 ```
 
-## 🔧 Key Technical Features
+## Key Technical Features
 
 - **Coordinate Heading Invariance**: All trajectories rotated to agent-local +Y frame
 - **Winner-Takes-All Loss**: Only backpropagates through the closest mode
@@ -52,29 +52,7 @@ Input (x, y, dx, dy, heading, class, moving)
 - **Early Stopping**: Patience-based (stops when validation plateaus)
 - **LR Warmup + Cosine Decay**: Stabilized Transformer training
 
-## 🚀 Quick Start
-
-```bash
-# 1. Setup
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-# 2. Place the nuScenes mini dataset
-# Download from: https://www.nuscenes.org/nuscenes#download
-# Extract to: v1.0-mini/v1.0-mini/
-
-# 3. Train (~3 min on M4 Mac)
-python train.py
-
-# 4. Evaluate + Visualize
-python evaluate.py
-
-# 5. Quick inference demo
-python predict.py
-```
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── data/
@@ -92,13 +70,13 @@ python predict.py
 └── requirements.txt            # Dependencies
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 - Python 3.10+
 - PyTorch 2.0+
 - NumPy, Matplotlib, tqdm
 
-## 📈 Training Progression
+## Training Progression
 
 | Version | minADE₃ | Key Change |
 |---|---|---|
