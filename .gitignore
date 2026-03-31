@@ -12,11 +12,11 @@ env/
 # Dataset (too large for git)
 v1.0-mini/
 
-# Model weights (large binary)
-best_model.pth
+# Model weights — included for evaluation
+# best_model.pth
 
-# Generated visualizations
-vis_*.png
+# Generated visualizations — included for README
+# vis_*.png
 
 # OS files
 .DS_Store
