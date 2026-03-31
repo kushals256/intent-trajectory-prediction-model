@@ -1,4 +1,4 @@
-<img width="266" height="81" alt="image" src="https://github.com/user-attachments/assets/20c6ad4c-3c15-4ca0-ba86-9343e579109f" /># 🚗 SATT — Social-Attention Trajectory Transformer
+# 🚗 SATT — Social-Attention Trajectory Transformer
 
 **PathForge — Intent & Trajectory Prediction for L4 Urban Autonomous Driving**
 
