@@ -1,6 +1,6 @@
-# 🚗 SATT — Social-Attention Trajectory Transformer
+<img width="266" height="81" alt="image" src="https://github.com/user-attachments/assets/20c6ad4c-3c15-4ca0-ba86-9343e579109f" /># 🚗 SATT — Social-Attention Trajectory Transformer
 
-**Intent & Trajectory Prediction for L4 Urban Autonomous Driving**
+**PathForge — Intent & Trajectory Prediction for L4 Urban Autonomous Driving**
 
 ---
 
@@ -243,3 +243,9 @@ The evaluation script generates bird's-eye-view plots showing:
 ## 📜 License
 
 This project was developed for the AI in Mobility Challenge.
+
+---
+
+## Acknowledgment
+
+Developed by Team Hephaesteans as part of the MAHE Mobility Challenge 2026.
